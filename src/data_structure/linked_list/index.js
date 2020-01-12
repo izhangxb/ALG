@@ -60,3 +60,20 @@ let double_node = (nodeData, prePointer, nextPointer) => {
         next : nextPointer
     }
 };
+
+let create_double_list = ()=>{
+  let node3 = double_node(3, null, null);
+  let node2 = double_node(2, null, node3);
+  let node1 = double_node(1, null, node2);
+  node2.prev = node1;
+  node3.prev = node2;
+  return node1;
+};
+
+let test_double = ()=>{
+    let double_head = create_double_list();
+    print_list(double_head);
+};
+
+test_double();
+
