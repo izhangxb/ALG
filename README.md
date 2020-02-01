@@ -19,7 +19,7 @@
 # 算法
 
    1. [递归](src/algorithm/recursive/index.md) √
-   2. 排序
+   2. [排序](src/algorithm/sort/index.md) √
    3. 二分查找
    4. 搜索
    5. 哈希算法
